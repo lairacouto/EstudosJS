@@ -1,18 +1,22 @@
-let weight 
+//let name = "Laíra"
+//let age = 28
+//let stars = 4.9
+//let isSubscribed = true
 
-console.log(typeof weight)
+//let student = { 
+    //name: "Laíra",
+    //age: 28,
+    //weight: 57.8,
+    //isSubscribed: true,
 
-let name = "Mayk"
-let age = 23
-let stars = 4.8
-let isSubscribed = true
+//console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg.`)
 
-let student = {
-    name: "Mayk",
-    age: 23,
-    stars: 4.8,
-    weight: 74.8,
-    isSubscribed: true,
+let students = [
+    student
+]
+
+console.log(students)
+
+const john = {
+    name = ""
 }
-
-console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg.`)
