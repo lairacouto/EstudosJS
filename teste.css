@@ -1,0 +1,19 @@
+.class {
+    font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: .8rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 4rem;
+}

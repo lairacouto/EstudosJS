@@ -1,22 +1,20 @@
-//let name = "Laíra"
-//let age = 28
-//let stars = 4.9
-//let isSubscribed = true
+let permition
 
-//let student = { 
-    //name: "Laíra",
-    //age: 28,
-    //weight: 57.8,
-    //isSubscribed: true,
+permition = 'manager';
 
-//console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg.`)
+switch (permition) {
+    case 'comun' :
+    console.log('Common User');
+    break;
 
-let students = [
-    student
-]
+    case 'manager' :
+    console.log('Manager User');
+    break;
 
-console.log(students)
+    case 'director' :
+    console.log('Director User');
+    break;
 
-const john = {
-    name = ""
+    default:
+    console.log('Unrecorgnizer User')
 }
